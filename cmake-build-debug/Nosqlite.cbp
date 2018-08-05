@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Nosqlite"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/aiden/programming/Nosqlite/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j32 -f &quot;/home/aiden/programming/Nosqlite/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j32 -f &quot;/home/aiden/programming/Nosqlite/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j32 -f &quot;/home/aiden/programming/Nosqlite/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j32 -f &quot;/home/aiden/programming/Nosqlite/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/aiden/programming/Nosqlite/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j32 -f &quot;/home/aiden/programming/Nosqlite/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j32 -f &quot;/home/aiden/programming/Nosqlite/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j32 -f &quot;/home/aiden/programming/Nosqlite/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j32 -f &quot;/home/aiden/programming/Nosqlite/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/aiden/programming/Nosqlite/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j32 -f &quot;/home/aiden/programming/Nosqlite/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j32 -f &quot;/home/aiden/programming/Nosqlite/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j32 -f &quot;/home/aiden/programming/Nosqlite/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j32 -f &quot;/home/aiden/programming/Nosqlite/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Nosqlite">
+				<Option output="/home/aiden/programming/Nosqlite/cmake-build-debug/Nosqlite" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aiden/programming/Nosqlite/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/aiden/programming/Nosqlite/."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j32 -f &quot;/home/aiden/programming/Nosqlite/cmake-build-debug/Makefile&quot;  VERBOSE=1 Nosqlite"/>
+					<CompileFile command="/usr/bin/make -j32 -f &quot;/home/aiden/programming/Nosqlite/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j32 -f &quot;/home/aiden/programming/Nosqlite/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j32 -f &quot;/home/aiden/programming/Nosqlite/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Nosqlite/fast">
+				<Option output="/home/aiden/programming/Nosqlite/cmake-build-debug/Nosqlite" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aiden/programming/Nosqlite/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/aiden/programming/Nosqlite/."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j32 -f &quot;/home/aiden/programming/Nosqlite/cmake-build-debug/Makefile&quot;  VERBOSE=1 Nosqlite/fast"/>
+					<CompileFile command="/usr/bin/make -j32 -f &quot;/home/aiden/programming/Nosqlite/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j32 -f &quot;/home/aiden/programming/Nosqlite/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j32 -f &quot;/home/aiden/programming/Nosqlite/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/aiden/programming/Nosqlite/Find.cpp">
+			<Option target="Nosqlite"/>
+		</Unit>
+		<Unit filename="/home/aiden/programming/Nosqlite/Find.h">
+			<Option target="Nosqlite"/>
+		</Unit>
+		<Unit filename="/home/aiden/programming/Nosqlite/Makefile">
+			<Option target="Nosqlite"/>
+		</Unit>
+		<Unit filename="/home/aiden/programming/Nosqlite/Nosqlite.cpp">
+			<Option target="Nosqlite"/>
+		</Unit>
+		<Unit filename="/home/aiden/programming/Nosqlite/Update.cpp">
+			<Option target="Nosqlite"/>
+		</Unit>
+		<Unit filename="/home/aiden/programming/Nosqlite/Update.h">
+			<Option target="Nosqlite"/>
+		</Unit>
+		<Unit filename="/home/aiden/programming/Nosqlite/collection.cpp">
+			<Option target="Nosqlite"/>
+		</Unit>
+		<Unit filename="/home/aiden/programming/Nosqlite/collection.h">
+			<Option target="Nosqlite"/>
+		</Unit>
+		<Unit filename="/home/aiden/programming/Nosqlite/database.cpp">
+			<Option target="Nosqlite"/>
+		</Unit>
+		<Unit filename="/home/aiden/programming/Nosqlite/database.h">
+			<Option target="Nosqlite"/>
+		</Unit>
+		<Unit filename="/home/aiden/programming/Nosqlite/document.cpp">
+			<Option target="Nosqlite"/>
+		</Unit>
+		<Unit filename="/home/aiden/programming/Nosqlite/document.h">
+			<Option target="Nosqlite"/>
+		</Unit>
+		<Unit filename="/home/aiden/programming/Nosqlite/documentMetaData.cpp">
+			<Option target="Nosqlite"/>
+		</Unit>
+		<Unit filename="/home/aiden/programming/Nosqlite/documentMetaData.h">
+			<Option target="Nosqlite"/>
+		</Unit>
+		<Unit filename="/home/aiden/programming/Nosqlite/json.cpp">
+			<Option target="Nosqlite"/>
+		</Unit>
+		<Unit filename="/home/aiden/programming/Nosqlite/json.h">
+			<Option target="Nosqlite"/>
+		</Unit>
+		<Unit filename="/home/aiden/programming/Nosqlite/jsonData.cpp">
+			<Option target="Nosqlite"/>
+		</Unit>
+		<Unit filename="/home/aiden/programming/Nosqlite/jsonData.h">
+			<Option target="Nosqlite"/>
+		</Unit>
+		<Unit filename="/home/aiden/programming/Nosqlite/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

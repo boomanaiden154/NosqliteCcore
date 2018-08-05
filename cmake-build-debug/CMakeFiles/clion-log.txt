@@ -1,4 +1,0 @@
-/home/aiden/clion/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/aiden/programming/Nosqlite
--- Configuring done
--- Generating done
--- Build files have been written to: /home/aiden/programming/Nosqlite/cmake-build-debug

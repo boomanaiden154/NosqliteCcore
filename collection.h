@@ -18,6 +18,8 @@ public:
 	std::vector<json> findDocuments(Find);
 	void updateDocument(Find, Update);
 	void updateDocuments(Find, Update);
+	void removeDocument(Find);
+	void removeDocuments(Find);
 	collection();
 	~collection();
 };

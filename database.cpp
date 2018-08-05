@@ -19,6 +19,12 @@ void database::createCollection(std::string name)
 	collections[name] = new collection();
 }
 
+void database::DropCollection(std::string name)
+{
+    delete collections[name];
+    collections.erase(name);
+}
+
 database::~database()
 {
 	for (auto const& x : collections)

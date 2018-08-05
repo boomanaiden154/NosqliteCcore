@@ -60,6 +60,29 @@ void collection::updateDocuments(Find searchParameters, Update updateData)
     }
 }
 
+void collection::removeDocument(Find searchParameters)
+{
+    for(int i = 0; i < documents.size(); i++)
+    {
+        if(searchParameters.DoesMatch(documents[i]))
+        {
+            documents.erase(documents.begin()+i+1);
+            break;
+        }
+    }
+}
+
+void collection::removeDocuments(Find searchParameters)
+{
+    for(int i = 0; i < documents.size(); i++)
+    {
+        if(searchParameters.DoesMatch(documents[i]))
+        {
+            documents.erase(documents.begin()+i+1);
+        }
+    }
+}
+
 collection::collection()
 {
 
